@@ -1,0 +1,30 @@
+.navbar{
+    height: 10vh;
+    background-color: rgb(253, 186, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbrand{
+    margin-left: 10px;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+}
+.search_bar{
+    margin-right: 10px;
+}
+#search_box{
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+}
+#btn{
+    outline: none;
+    height: 35.5px;
+    border-radius: 0 10px 10px 0;
+    background-color: brown;
+    color: white;
+}
